@@ -56,12 +56,18 @@ body{
 .medicine-img-h{
     height: 216px;
 }
+.w-lg-80{
+    width: 80%;
+}
 @media(max-width: 768px){
     .logo{
         width: 170px;
     }
     .medicine-img-h{
         height: 150px;
+    }
+    .w-lg-80{
+        width: 100%;
     }
 }
 @media(max-width: 420px){
