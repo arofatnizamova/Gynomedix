@@ -1,0 +1,15 @@
+body{
+    font-family: 'Effra Trial', sans-serif;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media(max-width: 768px){
+    .logo{
+        width: 170px;
+    }
+}
