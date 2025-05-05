@@ -52,9 +52,9 @@ $(document).ready(function () {
                     },
           ]
       }
-    }else if (slider.hasClass('bus')) {
+    }else if (slider.hasClass('medicine')) {
       extraOptions = {
-        slidesToShow: 2.8,
+        slidesToShow: 2.9,
           slidesToScroll: 1,
           centerMode: false,
           arrows: true,
@@ -80,8 +80,6 @@ $(document).ready(function () {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                arrows: false,
-                dots: true
               }
                     },
           ]
