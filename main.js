@@ -17,18 +17,9 @@ $(document).ready(function () {
           arrows: true,
           autoplay: true,
       }
-    } else if (slider.hasClass('offers')) {
+    } else if (slider.hasClass('advantages')) {
       extraOptions = {
-        slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: false,
-          arrows: true,
-          dots: true,
-          autoPlay: true,
-      }
-    }else if (slider.hasClass('gallery')) {
-      extraOptions = {
-        slidesToShow: 3,
+        slidesToShow: 4,
           slidesToScroll: 1,
           centerMode: false,
           arrows: true,
@@ -38,15 +29,17 @@ $(document).ready(function () {
             {
               breakpoint: 1200,
               settings: {
-                slidesToShow: 2.5,
+                slidesToShow: 3,
                 slidesToScroll: 1,
+                dots: true,
               }
             },
             {
               breakpoint: 992,
               settings: {
-                slidesToShow: 2,
+                slidesToShow: 2.1,
                 slidesToScroll: 1,
+                dots: true,
               }
             },
             {
@@ -54,6 +47,7 @@ $(document).ready(function () {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                dots: true,
               }
                     },
           ]
