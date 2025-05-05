@@ -1,3 +1,9 @@
+:root{
+    --color-blue: #c3e3f8;
+    --color-red: #FF2E17;
+}
+
+
 body{
     font-family: 'Effra Trial', sans-serif;
 }
@@ -7,7 +13,30 @@ body{
 .navbar-toggler:focus {
     box-shadow: none;
 }
+.fs-section-title{
+    font-size: clamp(1.375rem, 1.15rem + 1.125vw, 2.5rem);
+}
+.fs-paragraph{
+    font-size: clamp(1rem, 0.975rem + 0.125vw, 1.125rem);
+}
+.fs-button{
+    font-size: 40px;
+}
+.text-red{
+    color: var(--color-red)
+}
 
+
+.modal-link{
+    font-size: 14px;
+    background: none;
+    border: none;
+    color: var(--color-red);
+    text-decoration: underline;
+    font-weight: 600;
+    padding-left: 0;
+
+}
 @media(max-width: 768px){
     .logo{
         width: 170px;
