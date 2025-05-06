@@ -87,7 +87,7 @@ $(document).ready(function () {
     }
     slider.slick($.extend({}, extraOptions, options ));
   })
-
+  AOS.init();
   
   })
   
