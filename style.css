@@ -7,6 +7,10 @@
 body{
     font-family: 'Effra Trial', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .dropdown-toggle::after{
     display: none;
 }
@@ -32,7 +36,9 @@ body{
     background: var(--color-red);
 }
 
-
+.w-fit-content{
+    width: fit-content;
+}
 .modal-link{
     font-size: 16px;
     background: none;
@@ -103,7 +109,13 @@ body{
 .accordion-button::after {
 	filter: contrast(0%) brightness(2);
 }
-
+.map{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 @media(max-width: 768px){
     .logo{
         width: 170px;
